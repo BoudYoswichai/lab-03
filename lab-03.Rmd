@@ -21,8 +21,11 @@ nobel <- read_csv("data/nobel.csv")
 ### Exercise 1
 
 #### Narrative
-
-*Remove this text and add your answer here.*
+```{r counting_observations_and_variables}
+nrow(nobel)
+ncol(nobel)
+```
+There are 935 observations and 26 variables
 
 
 ### Exercise 2
